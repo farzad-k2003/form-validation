@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+
+  div {
+    width: 40vw;
+    min-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    label {
+      flex: 1;
+    }
+
+    input {
+      flex: 3;
+      padding: 5px;
+    }
+  }
+
+  button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+}
